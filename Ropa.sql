@@ -62,5 +62,17 @@ CREATE TABLE Roles (
     Nombre_Rol VARCHAR(50)
 );
 
-INSERT INTO `Usuarios`(`id`, `Nombre`, `Apellido`, `Correo`, `Numero_de_Telefono`, `Direccion`)
-VALUES ('2','Daniel','Cufos','danielcufos111@gmail.com','146723466','Mi casa B)')
+//////////////////////////////////PRODUCTOS//////////////////////////////////
+
+INSERT INTO `Productos`(`Nombre`, `Cantidad`, `Precio`, `Stock`) VALUES 
+('Zapatillas Air Force Blancas', 50, 80.00, 200),
+('Camiseta Nike Dri-FIT', 30, 25.00, 150),
+('Pantalones Adidas Originals', 20, 60.00, 100),
+('Chaqueta Puma Essentials', 15, 90.00, 75),
+('Sudadera Under Armour', 25, 45.00, 120),
+('Botas Timberland Clásicas', 10, 150.00, 50),
+('Gorra New Era 9FIFTY', 40, 30.00, 180);
+
+
+/////////////////////////////////////////////////////////////////////////////
+

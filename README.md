@@ -3,7 +3,7 @@ base de datos
 
 Esta pagina esta destinada a ser una pagina de compra, venta y trueque exclusiva para los estudiantes de la uba, el funcionamiento es simple:
 
-Supongamos que usted es un usuario de esta pagina, entra y ve varias prendas pero una en especifico le llama la atencion y decide adquirirla, hay dos maneras, una seria pagando su precio en efectivo o transferencia bancaria, etc, otra seria haciendo un trueque.
+Supongamos que usted es un usuario de esta pagina, entra y ve varias prendas pero una en especifico le llama la atencion y decide adquirirla, hay dos maneras, una seria pagando su precio en efectivo o transferencia bancaria, otra seria haciendo un trueque.
 
 Para hacer un trueque dentro de la pagina hay que tener una prenda publicada, ejemplo:
 
