@@ -11,3 +11,10 @@ Veo un pantalon que me gusto y decido hacerle trueque al vendedor con otra prend
 
 (Cabe aclarar que para poder subir prendas, comprar, vender o hacer trueque dentro de la pagina hay que tener una cuenta registrada en la misma, esta se registraria con el mail que nos asigna la uba terminado en etec.uba.ar, colocando tambien nombre, apellido y curso en la misma)
 
+link del servidor
+
+http://10.9.120.5:8080/
+
+usuario: ropauba
+contraseña: ropauba111
+
