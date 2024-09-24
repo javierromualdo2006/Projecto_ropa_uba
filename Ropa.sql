@@ -61,3 +61,6 @@ CREATE TABLE Roles (
     id INT PRIMARY KEY,
     Nombre_Rol VARCHAR(50)
 );
+
+INSERT INTO `Usuarios`(`id`, `Nombre`, `Apellido`, `Correo`, `Numero_de_Telefono`, `Direccion`)
+VALUES ('2','Daniel','Cufos','danielcufos111@gmail.com','146723466','Mi casa B)')
