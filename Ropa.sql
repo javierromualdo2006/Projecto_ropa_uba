@@ -110,8 +110,6 @@ VALUES
 ('Moderador'),
 ('Usuario')
 
-ALTER TABLE UsuariosRoles 
-DROP COLUMN id;
 
 INSERT INTO `UsuariosRoles`(`id_Usuario`, `id_Roles`) 
 VALUES 
@@ -149,9 +147,17 @@ VALUES
 INSERT INTO `Publicaciones`(`id_Usuarios`, `id_Productos`, `Titulo`, `Imagen`, `Descripcion`) 
 VALUES 
 (2, 1, 'El Auto de Colapinto', 'https://imgs.search.brave.com/Egemw8U3x1QlaXP-TXuizjIzx29WMBde_N_edjYXTJU/rs:fit:500:0:0:0/g:ce/aHR0cHM6Ly9pbWFn/ZXMucGFnaW5hMTIu/Y29tLmFyL3N0eWxl/cy9mb2NhbF8zXzJf/OTYweDY0MC9wdWJs/aWMvMjAyNC0wOS84/NzMyMDEtMDAwLTM2/Zzc4dGYuanBnP2g9/YzM2MzVmYTImaXRv/az0zM0tUODNNYw', 'Descripción de la publicación 1'), 
-(4, 2, 'Publicación 2', 'imagen2.jpg', 'Descripción de la publicación 2'), 
+(4, 2, 'Los guantes de Tyson firmados', 'https://imgs.search.brave.com/821HJjXltozC9JYK-rr_EBttxJpzPtGCH-sg8lETMAI/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9tLm1l/ZGlhLWFtYXpvbi5j/b20vaW1hZ2VzL0kv/NTFUQ1VpZ2lzUEwu/anBn', 'Guantes Title dorados firmados por mike tyson'), 
 (5, 3, 'Publicación 3', 'imagen3.jpg', 'Descripción de la publicación 3'), 
 (6, 4, 'Publicación 4', 'imagen4.jpg', 'Descripción de la publicación 4'), 
 (7, 5, 'Publicación 5', 'imagen5.jpg', 'Descripción de la publicación 5');
 >>>>>>> 845e6e67c5dcc7ce3265ad9985de499bd0e3a89e
 
+
+///////////////////MODIFICACIONES/////////////////////////
+
+ALTER TABLE UsuariosRoles 
+DROP COLUMN id;
+
+ALTER TABLE Compras
+DROP COLUMN estado;
